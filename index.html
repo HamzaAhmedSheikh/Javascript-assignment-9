@@ -8,6 +8,23 @@
         #displayAnswer {
             font-size: 40px;
         }
+                
+        div {
+            display: inline-block;
+            margin: 20px;
+        } 
+
+        img{
+          width: 145px;
+          border: 1px solid gray;
+          display: inline-block;
+          padding: 5px;
+        }
+
+        .text {
+            text-align: center;
+        }
+
     </style>
 </head>
 <body>
@@ -17,8 +34,36 @@
     <input type="button" id="button" onClick="isLeapYear()" value="Check Leap Year" /> 
       
     <p id="displayAnswer"></p> 
-    
 
+    <a href="#" onclick="greetUser()"> click on a message </a>
+    
+  
+      <h3> Mobile Phone lookup </h3>
+        <div>
+           <img src="./images/xiaomi-poco-f2-pro.webp" onclick="showTheMessage()" alt="xiaomi-poco-f2-pro"> 
+            <p class="text"> Xiaomi Poco F2 Pro  </p>
+        </div>
+         
+        <div>
+           <img src="./images/samsung-galaxy-a21s_2_.webp" onclick="showTheMessage()" alt="samsung-galaxy-a21s_2">
+           <p class="text"> Samsung Galaxy A21s  </p>
+        </div>   
+           
+        <div>
+           <img src="./images/oneplus-8-450x450.webp" onclick="showTheMessage()" alt="oneplus-8">
+           <p class="text"> OnePlus 8  </p>
+        </div>
+
+        <div>
+            <img src="./images/Huawei Nova 7i.webp" onclick="showTheMessage()" alt="Huawei Nova 7i">
+            <p class="text"> Huawei Nova 7i </p>
+        </div>         
+
+           
+   
+      
+    
+     
 
 
    <script src="./app.js"></script> 
