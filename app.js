@@ -145,6 +145,21 @@ function findOccurrences() {
    document.write(distanceBetweenCities(200));
 
 // Chapter #38-44 and Task #9
+
+ function overTime(totalhour) {
+	 if(totalhour > 40) {
+		 var extrahour = totalhour - 40;
+
+		 return "<br />" + "Rs: " + extrahour * 12
+	 }
+	 else {
+		 return  "<br />" + "your work is less than 40 hours"
+	 }
+ }
+
+  document.write(overTime(50));
+
+  
 // Chapter #38-44 and Task #10
 
 
