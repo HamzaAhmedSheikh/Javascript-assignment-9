@@ -37,7 +37,7 @@ function showTheMessage() {
     alert('Thanks for purchasing a phone from us');
 }
 
-// Chapter #43-48 and Task #3
+// Chapter #43-48 and Task #3 complete
 
 function SomeDeleteRowFunction() {
 	
