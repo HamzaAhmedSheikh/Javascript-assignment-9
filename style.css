@@ -22,3 +22,7 @@ img{
     border: 0px;
     margin-left: 50px;                        
 }
+
+td {
+    text-align: center;    
+}

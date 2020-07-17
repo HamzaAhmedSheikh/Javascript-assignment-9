@@ -37,6 +37,15 @@ function showTheMessage() {
     alert('Thanks for purchasing a phone from us');
 }
 
+// Chapter #43-48 and Task #3
+
+function SomeDeleteRowFunction() {
+	
+	var td = event.target.parentNode;	 
+	var tr = td.parentNode; 	
+	tr.parentNode.removeChild(tr);
+}
+
 // Chapter #43-48 and Task #4
 
 function setNewImage() {
