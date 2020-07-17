@@ -72,17 +72,61 @@ function removeVowels(str) {
 	console.log(str.length);
   
 	if(str.length <= 25) {
-		return str.replace(/[aeiou]/gi, '');
+		return "<br />" + "Remove Vowels " + str.replace(/[aeiou]/gi, '');
 	}
 
 	else{
 	  return "length is greater than 25 words"
 	}
-
 	
   }
 
-  console.log(removeVowels("Hamza Ahmed Sheikh"))
+  document.write(removeVowels("Hamza Ahmed Sheikh"))
+
+// Chapter #38-44 and Task #7
+
+function findOccurrences() {
+	var str = "Pleases read this application and give me gratuity";
+	var count = 0;
+	let haveSeenVowel = false;
+  
+	for (const letter of str.toLowerCase()) {
+	  switch (letter) {
+		case 'a':
+		case 'e':
+		case 'i':
+		case 'o':
+		case 'u':
+		  {
+			if (haveSeenVowel) {
+			  count++;
+			  haveSeenVowel = false;
+			} else {
+			  haveSeenVowel = true;
+			}
+			break;
+		  }
+		default:
+		  haveSeenVowel = false
+	  }
+	}
+  
+	return count
+  }
+  
+    document.write("<br />" + "Occurrences in a sentence " + findOccurrences());
+
+// Chapter #38-44 and Task #8
+
+// 1 km = 1000 meters, 1 meter = 3.28 feet, 1 foot = 12 inches, foot = 30 centimeters
+
+
+// Chapter #38-44 and Task #9
+// Chapter #38-44 and Task #10
+
+
+
+ 
 
 // Chapter #43-48 and Task #1
 
