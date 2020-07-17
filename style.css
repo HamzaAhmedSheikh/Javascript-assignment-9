@@ -26,3 +26,14 @@ img{
 td {
     text-align: center;    
 }
+
+.inc {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.inc > span {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px;
+}

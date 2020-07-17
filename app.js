@@ -55,3 +55,17 @@ function setNewImage() {
 function setOldImage() {
     document.getElementById("bulb").src = "./images/pic_bulboff.gif"    
 }
+
+// Chapter #43-48 and Task #5
+
+var clicks = 0;
+
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+	};
+	
+	function setClick() {
+		clicks -= 1;
+		document.getElementById("clicks").innerHTML = clicks;		
+	}
