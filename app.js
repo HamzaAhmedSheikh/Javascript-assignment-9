@@ -114,12 +114,35 @@ function findOccurrences() {
 	return count
   }
   
-    document.write("<br />" + "Occurrences in a sentence " + findOccurrences());
+    document.write("<br />" + "Occurrences in a sentence " + findOccurrences() + "<br />");
 
 // Chapter #38-44 and Task #8
 
-// 1 km = 1000 meters, 1 meter = 3.28 feet, 1 foot = 12 inches, foot = 30 centimeters
+ function meters(a) {  
+   return 1000 * a	    	
+}
 
+ function feet(a) {
+   return 3281 * a	 
+ }
+
+ function inches(a) {
+   return 39370 * a	 
+ }
+
+ function centimeters(a) {
+	return 100000 * a  
+ }
+
+ function distanceBetweenCities(b) { 
+
+  	
+	
+  return  "Meters " + meters(b) + "<br />" + "Feet " + (feet(b)) + "<br />" + "Inches " +  (inches(b)) + "<br />" + "Centimeters " + (centimeters(b))
+
+ }
+
+   document.write(distanceBetweenCities(200));
 
 // Chapter #38-44 and Task #9
 // Chapter #38-44 and Task #10
