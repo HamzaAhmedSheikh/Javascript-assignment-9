@@ -1,0 +1,24 @@
+#displayAnswer {
+    font-size: 40px;
+}
+        
+.moblieDiv {
+    display: inline-block;
+    margin: 20px;
+} 
+
+img{
+  width: 145px;
+  border: 1px solid gray;
+  display: inline-block;
+  padding: 5px;
+}
+
+.text {
+    text-align: center;
+}
+
+#bulb {
+    border: 0px;
+    margin-left: 50px;                        
+}
