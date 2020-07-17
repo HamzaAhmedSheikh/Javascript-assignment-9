@@ -159,11 +159,20 @@ function findOccurrences() {
 
   document.write(overTime(50));
 
-  
+
 // Chapter #38-44 and Task #10
 
+function currencyDenomination() {
+	var cash = +prompt("Enter amount to withdrawn ");
+	var hundred = cash / 100;
+	var fifty = cash / 50;
+	var ten = cash / 10;
 
+	return "<br />" + `you will have ${hundred} hundred notes ${fifty} fifty notes ${ten} ten notes`   
 
+}
+
+document.write(currencyDenomination())
  
 
 // Chapter #43-48 and Task #1
