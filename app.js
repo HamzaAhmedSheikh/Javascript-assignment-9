@@ -1,7 +1,5 @@
 console.log('Javascript Assignment #9');
 
-// FUNCTIONS, switch statements, while... do-while loops | JAVASCRIPT
-
 // Chapter #38-44 and Task #1
 
 function power(base, exponent) {
@@ -14,8 +12,7 @@ function power(base, exponent) {
 	return result;
 }
 
-console.log(power(2,3));
-console.log(power(5));
+document.write("<br />" + "Answer is " + power(2,4));
 
 // Chapter #38-44 and Task #2
 
@@ -69,3 +66,21 @@ var clicks = 0;
 		clicks -= 1;
 		document.getElementById("clicks").innerHTML = clicks;		
 	}
+
+// Chapter #53-57 and Task #1
+
+var modal = document.getElementById("modal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
