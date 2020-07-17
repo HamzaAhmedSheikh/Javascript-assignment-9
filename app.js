@@ -63,6 +63,26 @@ function areaOfTriangle(a, b, c) {
 
    document.write(mainFuntion(70, 80, 60))
 
+ // Chapter #38-44 and Task #5  
+
+// Chapter #38-44 and Task #6
+
+function removeVowels(str) {
+
+	console.log(str.length);
+  
+	if(str.length <= 25) {
+		return str.replace(/[aeiou]/gi, '');
+	}
+
+	else{
+	  return "length is greater than 25 words"
+	}
+
+	
+  }
+
+  console.log(removeVowels("Hamza Ahmed Sheikh"))
 
 // Chapter #43-48 and Task #1
 
