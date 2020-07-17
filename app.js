@@ -36,3 +36,13 @@ function isLeapYear() {
 function showTheMessage() {
     alert('Thanks for purchasing a phone from us');
 }
+
+// Chapter #43-48 and Task #4
+
+function setNewImage() {
+   document.getElementById("bulb").src = "./images/pic_bulbon.gif"    
+}
+
+function setOldImage() {
+    document.getElementById("bulb").src = "./images/pic_bulboff.gif"    
+}

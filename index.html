@@ -9,7 +9,7 @@
             font-size: 40px;
         }
                 
-        div {
+        .moblieDiv {
             display: inline-block;
             margin: 20px;
         } 
@@ -23,6 +23,11 @@
 
         .text {
             text-align: center;
+        }
+
+        #bulb {
+            border: 0px;
+            margin-left: 50px;                        
         }
 
     </style>
@@ -39,27 +44,35 @@
     
   
       <h3> Mobile Phone lookup </h3>
-        <div>
+        <div class="moblieDiv">
            <img src="./images/xiaomi-poco-f2-pro.webp" onclick="showTheMessage()" alt="xiaomi-poco-f2-pro"> 
             <p class="text"> Xiaomi Poco F2 Pro  </p>
         </div>
          
-        <div>
+        <div class="moblieDiv">
            <img src="./images/samsung-galaxy-a21s_2_.webp" onclick="showTheMessage()" alt="samsung-galaxy-a21s_2">
            <p class="text"> Samsung Galaxy A21s  </p>
         </div>   
            
-        <div>
+        <div class="moblieDiv">
            <img src="./images/oneplus-8-450x450.webp" onclick="showTheMessage()" alt="oneplus-8">
            <p class="text"> OnePlus 8  </p>
         </div>
 
-        <div>
-            <img src="./images/Huawei Nova 7i.webp" onclick="showTheMessage()" alt="Huawei Nova 7i">
+        <div class="moblieDiv">
+            <img src="./images/Huawei Nova 7i.webp"
+                 onclick="showTheMessage()"                           
+                 alt="Huawei Nova 7i">
             <p class="text"> Huawei Nova 7i </p>
         </div>         
 
-           
+        <div>
+           <img src="./images/pic_bulboff.gif" 
+                id="bulb"
+                onmouseover="setNewImage()" 
+                onmouseout="setOldImage()"
+                alt="bulboff"> 
+        </div>
    
       
     
