@@ -220,6 +220,14 @@ var clicks = 0;
 		document.getElementById("clicks").innerHTML = clicks;		
 	}
 
+// Chapter #49-52 and Task #1
+
+function showInput() {
+	document.getElementById('displayEmail').innerHTML = document.getElementById("user_email").value;
+	document.getElementById('displayPassword').innerHTML = document.getElementById("user_id").value;
+			
+}
+
 // Chapter #53-57 and Task #1
 
 var modal = document.getElementById("modal");
