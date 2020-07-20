@@ -242,6 +242,33 @@ function expandLoris() {
 	 document.getElementById("expandThePara").innerHTML = expandedParagraph;
  }
 	
+// Chapter #49-52 and Task #3
+
+ var table = document.getElementById('list');
+
+ function addTodo() {
+	 
+	 var todo_item = document.getElementById("todo-item");
+
+	 var td = document.createElement("td");
+	 var tdText = document.createTextNode(todo_item.value);	 
+
+	 td.appendChild(tdText)
+
+	 // create delete button
+    
+     var delBtn = document.createElement("button")
+
+	 table.appendChild(td)
+	
+	 todo_item.value = ''
+	 
+
+
+
+
+ }
+
 
 // Chapter #53-57 and Task #1
 
