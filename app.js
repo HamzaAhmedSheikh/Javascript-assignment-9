@@ -244,31 +244,39 @@ function expandLoris() {
 	
 // Chapter #49-52 and Task #3
 
- var table = document.getElementById('list');
+ var list = document.getElementById('list');
 
  function addTodo() {
 	 
 	 var todo_item = document.getElementById("todo-item");
 
-	 var td = document.createElement("td");
-	 var tdText = document.createTextNode(todo_item.value);	 
+	 var li = document.createElement("td");
+	 var liText = document.createTextNode(todo_item.value);	 
 
-	 td.appendChild(tdText)
+	 li.appendChild(liText)
 
 	 // create delete button
     
-     var delBtn = document.createElement("button")
+	 var delBtn = document.createElement("button")
+	 var delText = document.createTextNode("DELETE")
 
-	 table.appendChild(td)
+	 delBtn.setAttribute("class", "btn")
+	 delBtn.setAttribute("onclick", "deleteItem(this)")
+	 delBtn.appendChild(delText)
+	 li.appendChild(delBtn)
+
+	 list.appendChild(li)
 	
 	 todo_item.value = ''
-	 
-
-
-
-
  }
+ 
+  function deleteItem(e) {
+	  e.parentNode.remove()
+  }
 
+  function deleteAll() {
+	  
+  }
 
 // Chapter #53-57 and Task #1
 
