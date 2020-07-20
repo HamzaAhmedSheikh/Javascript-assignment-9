@@ -263,7 +263,18 @@ function expandLoris() {
 	 delBtn.setAttribute("class", "btn")
 	 delBtn.setAttribute("onclick", "deleteItem(this)")
 	 delBtn.appendChild(delText)
+
+
+	  // create edit button
+	  
+	 var editBtn = document.createElement("button")  
+	 var editText = document.createTextNode("Edit")
+
+	 editBtn.appendChild(editText)
+	 editBtn.setAttribute("onclick", "editItem(this)")
+
 	 li.appendChild(delBtn)
+	 li.appendChild(editBtn)
 
 	 list.appendChild(li)
 	
@@ -276,6 +287,15 @@ function expandLoris() {
 
   function deleteAll() {
 	  list.innerHTML = ""
+  }
+  
+  function editItem(e) {
+	   var val = e.parentNode.firstChild.nodeValue
+	   var editValue = prompt("Enter edit value", val)
+	 
+	   e.parentNode.firstChild.nodeValue = editValue
+
+	
   }
 
 // Chapter #53-57 and Task #1
