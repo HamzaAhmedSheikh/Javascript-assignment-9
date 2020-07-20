@@ -275,7 +275,7 @@ function expandLoris() {
   }
 
   function deleteAll() {
-	  
+	  list.innerHTML = ""
   }
 
 // Chapter #53-57 and Task #1
