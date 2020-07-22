@@ -324,4 +324,9 @@ var contentChildren = document.getElementById("main-content").childNodes
 
 // Assignment # 58-67 and Task #4
 
-var innerValue = document.getElementById("first-name").value = "Hamza";
+var firstName = document.getElementById("first-name").value = "Hamza";
+
+// Assignment # 58-67 and Task #5
+
+var firstName = document.getElementById("last-name").value = "Ahmed";
+var firstName = document.getElementById("email").value = "alexbank@example.com";
