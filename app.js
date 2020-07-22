@@ -336,3 +336,11 @@ var userEmail = document.getElementById("email").value = "alexbank@example.com";
 var type = document.getElementById("form-content").nodeType
 
   document.write("The node is an element node: " + type);
+
+// Assignment # 58-67 and Task #7
+
+var childType = document.getElementById("last-name").nodeType
+var checkType = document.getElementById("email").nodeType
+
+ console.log(childType);
+ console.log(checkType);
