@@ -306,11 +306,11 @@ var content = document.getElementById("main-content")
 
 console.log(content);
 
-// Assignment # 58-67 and Task #2
+// Assignment # 58-67 and Task #2 complete
 
-// var contentChildren = document.getElementById("main-content").childNodes
+var contentChildren = document.getElementById("main-content").childNodes
 
-//   console.log(contentChildren);
+  console.log(contentChildren);
 
 //   var elements = document.getElementsByClassName('render');
 //   var inner = [];
