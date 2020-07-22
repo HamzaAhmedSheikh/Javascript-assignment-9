@@ -48,3 +48,11 @@ td {
 .showData {
     margin-top: 20px;
 }
+
+button {
+    margin: 5px;
+}
+
+#todo-item {
+    padding: 3px;
+}

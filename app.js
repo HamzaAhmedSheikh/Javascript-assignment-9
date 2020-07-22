@@ -248,7 +248,7 @@ function expandLoris() {
 
  function addTodo() {
 	 
-	 var todo_item = document.getElementById("todo-item");
+	 var todo_item = document.getElementById("todo-item");	 
 
 	 var li = document.createElement("td");
 	 var liText = document.createTextNode(todo_item.value);	 

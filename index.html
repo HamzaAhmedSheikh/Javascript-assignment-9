@@ -185,10 +185,13 @@
      </div>
        
      <div>
-       <input type="text" placeholder="Enter you information" id="todo-item">
-       <button onclick="addTodo()"> Add Item </button>
-       <button onclick="deleteAll()"> Delete All </button>
-       
+       <form action="./index.html" method="get">
+        <label for="information">Enter your information:</label>
+        <input type="text" id="todo-item" name="information" placeholder="name age and your subject" ><br><br>             
+        
+        <input type="button" onclick="addTodo()" value="Add Item" />
+        <input type="button" onclick="deleteAll()" value="Delete All" />
+       </form>       
      </div>
 
      <div>
