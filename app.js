@@ -321,3 +321,7 @@ var contentChildren = document.getElementById("main-content").childNodes
 	inner.push( elements[i].innerHTML + "<br />");
 	
 	document.write("<br />" + inner );
+
+// Assignment # 58-67 and Task #4
+
+var innerValue = document.getElementById("first-name").value = "Hamza";
