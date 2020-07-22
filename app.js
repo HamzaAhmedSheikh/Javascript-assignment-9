@@ -300,18 +300,22 @@ function expandLoris() {
 
 // Chapter #53-57 and Task #1
 
-var modal = document.getElementById("modal");
+// Assignment # 58-67 and Task #1
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
+var content = document.getElementById("main-content")
 
-// var img = document.getElementById("myImg");
-// var modalImg = document.getElementById("img01");
-// var captionText = document.getElementById("caption");
-// img.onclick = function(){
-//   modal.style.display = "block";
-//   modalImg.src = this.src;
-//   captionText.innerHTML = this.alt;
-// }
+console.log(content);
 
-// // Get the <span> element that closes the modal
-// var span = document.getElementsByClassName("close")[0];
+// Assignment # 58-67 and Task #2
+
+// var contentChildren = document.getElementById("main-content").childNodes
+
+//   console.log(contentChildren);
+
+//   var elements = document.getElementsByClassName('render');
+//   var inner = [];
+
+//   for ( var i = 0; i < elements.length; ++i )
+// 	inner.push( elements[i].innerHTML );
+	
+// 	console.log( inner );
