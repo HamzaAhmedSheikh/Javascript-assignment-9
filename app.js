@@ -349,9 +349,6 @@ var checkType = document.getElementById("email").nodeType
 
  var title = document.getElementById('lastName')
      title.id = "last_name" 
-	
-    
-    console.log (title);   
 
  // Assignment # 58-67 and Task #9
 
@@ -361,3 +358,12 @@ var checkType = document.getElementById("email").nodeType
  document.write('<br />' + "First Child:- " + getFirst + "<br />");
  document.write("Last Child:- " + getLast);
  
+ // Assignment # 58-67 and Task #10
+
+ var item = document.getElementById("last_name")
+ var itemOne = item.nextSibling
+ var itemTwo = item.previousSibling
+  
+  console.log(itemOne);
+  console.log(itemTwo);
+  
