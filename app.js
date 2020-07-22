@@ -328,5 +328,5 @@ var firstName = document.getElementById("first-name").value = "Hamza";
 
 // Assignment # 58-67 and Task #5
 
-var firstName = document.getElementById("last-name").value = "Ahmed";
-var firstName = document.getElementById("email").value = "alexbank@example.com";
+var lastName = document.getElementById("last-name").value = "Ahmed";
+var userEmail = document.getElementById("email").value = "alexbank@example.com";
