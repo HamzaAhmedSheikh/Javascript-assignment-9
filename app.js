@@ -345,7 +345,7 @@ var checkType = document.getElementById("email").nodeType
  console.log(childType);
  console.log(checkType);
 
- // Assignment # 58-67 and Task #7
+ // Assignment # 58-67 and Task #8
 
  var title = document.getElementById('lastName')
      title.id = "last_name" 
@@ -353,5 +353,11 @@ var checkType = document.getElementById("email").nodeType
     
     console.log (title);   
 
- 
+ // Assignment # 58-67 and Task #9
 
+ var getFirst = document.getElementById("main-content").firstChild.innerHTML;
+ var getLast = document.getElementById("main-content").lastChild.innerHTML;
+
+ document.write('<br />' + "First Child:- " + getFirst + "<br />");
+ document.write("Last Child:- " + getLast);
+ 
