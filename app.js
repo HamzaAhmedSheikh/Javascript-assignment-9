@@ -344,3 +344,14 @@ var checkType = document.getElementById("email").nodeType
 
  console.log(childType);
  console.log(checkType);
+
+ // Assignment # 58-67 and Task #7
+
+ var title = document.getElementById('lastName')
+     title.id = "last_name" 
+	
+    
+    console.log (title);   
+
+ 
+
