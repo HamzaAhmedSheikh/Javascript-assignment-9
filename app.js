@@ -306,16 +306,18 @@ var content = document.getElementById("main-content")
 
 console.log(content);
 
-// Assignment # 58-67 and Task #2 complete
+// Assignment # 58-67 and Task #2 
 
 var contentChildren = document.getElementById("main-content").childNodes
 
   console.log(contentChildren);
 
-//   var elements = document.getElementsByClassName('render');
-//   var inner = [];
+// Assignment # 58-67 and Task #3  
 
-//   for ( var i = 0; i < elements.length; ++i )
-// 	inner.push( elements[i].innerHTML );
+  var elements = document.getElementsByClassName('render');
+  var inner = [];
+
+  for ( var i = 0; i < elements.length; ++i )
+	inner.push( elements[i].innerHTML + "<br />");
 	
-// 	console.log( inner );
+	document.write("<br />" + inner );
