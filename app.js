@@ -348,7 +348,7 @@ var checkType = document.getElementById("email").nodeType
  // Assignment # 58-67 and Task #8
 
  var title = document.getElementById('lastName')
-     title.id = "last_name" 
+    //  title.id = "last_name" 
 
  // Assignment # 58-67 and Task #9
 
@@ -360,10 +360,15 @@ var checkType = document.getElementById("email").nodeType
  
  // Assignment # 58-67 and Task #10
 
- var item = document.getElementById("last_name")
+ var item = document.getElementById("lastName")
  var itemOne = item.nextSibling
  var itemTwo = item.previousSibling
   
   console.log(itemOne);
   console.log(itemTwo);
   
+ // Assignment # 58-67 and Task #11 
+
+ var findNode = document.getElementById("email").parentNode.nodeType;
+
+ console.log(findNode);
