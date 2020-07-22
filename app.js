@@ -330,3 +330,9 @@ var firstName = document.getElementById("first-name").value = "Hamza";
 
 var lastName = document.getElementById("last-name").value = "Ahmed";
 var userEmail = document.getElementById("email").value = "alexbank@example.com";
+
+// Assignment # 58-67 and Task #6
+
+var type = document.getElementById("form-content").nodeType
+
+  document.write("The node is an element node: " + type);
