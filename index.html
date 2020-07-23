@@ -17,22 +17,34 @@
     <a href="#" onclick="greetUser()"> click on a message </a>
 
 
-    <div>
-      <!-- <img src="./images/Huawei Nova 7i.webp" id="modalBtn" class="button" onclick="openModal()" alt="Mobile" > -->
-      <button id="modalBtn"
-              class="button"
-              onclick="openModal()">
-               Click Here 
-      </button>
-      <div id="simpleModal" class="modal">
-        <div class="modal-content">
-          <span class="closeBtn"  onclick="closeModal()"> &times; </span>
-          <img src="./images/Huawei Nova 7i.webp" id="modalBtn" class="button" alt="Mobile" >
-        </div>
+    <div style="text-align:center">
+      <h2>Tabbed Image Gallery</h2>
+      <p>Click on the images below:</p>
+    </div>
+
+    <div class="row">
+      <div class="column">
+        <img src="./images/3.jpg" alt="Nature" class="modalImg" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="./images/9.jpg" alt="Snow" class="modalImg" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="./images/11.jpg" alt="Mountains" class="modalImg" onclick="myFunction(this);">
+      </div>
+      <div class="column">
+        <img src="./images/12.jpg" alt="Lights" class="modalImg" onclick="myFunction(this);">
       </div>
     </div>
     
-  
+    <div class="container">
+      <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      <img id="expandedImg" style="width:500px">
+      <div id="imgtext"></div>
+    </div>
+    
+  <!----------------------------------------------------------------------------------------->
+
       <h3> Mobile Phone lookup </h3>
         <div class="moblieDiv">
            <img src="./images/xiaomi-poco-f2-pro.webp"
