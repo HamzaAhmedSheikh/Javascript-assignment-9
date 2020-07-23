@@ -300,6 +300,25 @@ function expandLoris() {
 
 // Chapter #53-57 and Task #1
 
+  // Get modal element 
+     var modal = document.getElementById("simpleModal")
+  
+  // Get open modal button 
+	  var modalBtn = document.getElementById("modalBtn") 	
+	  
+  // Get close button
+      var closeBtn = document.getElementsByClassName("closeBtn")	  
+
+
+   function openModal() {
+	   modal.style.display = "block" 	   
+   }
+
+   function closeModal() {
+	modal.style.display = "none" 	   
+}
+
+
 // Assignment # 58-67 and Task #1
 
 var content = document.getElementById("main-content")
