@@ -308,7 +308,19 @@ function expandLoris() {
   }
 
  
+// Chapter #53-57 and Task #2
 
+var size = document.getElementById("text")
+
+    function zoomIn() {		
+	  size.style.fontSize = '10px' 
+
+     
+   }
+
+   function zoomOut() {
+	size.style.fontSize = "25px"
+}
 
 
 
