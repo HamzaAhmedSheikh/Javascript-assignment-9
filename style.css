@@ -153,3 +153,8 @@ button {
     height: 400px;
 
   }
+
+  #text {
+      font-weight: 400;
+      font-family: sans-serif;
+  }

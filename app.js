@@ -310,29 +310,38 @@ function expandLoris() {
  
 // Chapter #53-57 and Task #2
 
-var size = document.getElementById("text")
+   var result = document.getElementById("text"); 
 
-    function zoomIn() {		
-	  size.style.fontSize = '10px' 
+   var currTextSize = 20;  
 
-     
-   }
+   result.style.fontSize = currTextSize + 'px';
 
-   function zoomOut() {
-	size.style.fontSize = "25px"
-}
+   function big () {
+	++currTextSize;
+	result.style.fontSize = currTextSize + 'px';
+	
+  }
+
+  function small () {
+	--currTextSize;
+	result.style.fontSize = currTextSize + 'px';
+
+  }
+   
+
+
 
 
 
 // Assignment # 58-67 and Task #1
 
-var content = document.getElementById("main-content")
+  var content = document.getElementById("main-content")
 
 console.log(content);
 
 // Assignment # 58-67 and Task #2 
 
-var contentChildren = document.getElementById("main-content").childNodes
+  var contentChildren = document.getElementById("main-content").childNodes
 
   console.log(contentChildren);
 
