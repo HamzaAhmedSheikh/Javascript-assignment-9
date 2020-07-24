@@ -405,3 +405,6 @@ var checkType = document.getElementById("email").nodeType
  var findNode = document.getElementById("email").parentNode.nodeType;
 
  console.log(findNode);
+
+
+/*--------------------Javascript Assignment #9 completed-------------------------------------*/
